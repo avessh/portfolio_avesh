@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-nav{
+.navbar_desktop{
  
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-ul{
+#desktop_nav_ul{
 
    display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@ ul{
 }
  
 
-li::after {
+.desktop_nav_li::after {
 
     display: inline-block;
     content: '';
@@ -38,7 +38,7 @@ li::after {
     transition: all 250ms ease-in-out;
   }
 
-li:hover::after{
+  .desktop_nav_li:hover::after{
   
     text-decoration: underline;
     width: 100%;
@@ -46,7 +46,54 @@ li:hover::after{
     
 }
 
+.boot_nav{
+    display: none;
+}
 
+@media screen and (max-width: 900px) {
+  .navbar_desktop{
+    display: none;
+  }
+
+  .boot_nav{
+    display: block;
+    margin: 0%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 20vh;
+  }
+
+  li{
+    display: block;
+    text-align: center;
+  }
+
+
+li::after {
+
+    /* display: inline-block; */
+    text-align: center;
+    content: '';
+    margin-top: 0;
+    margin-left: 40%;
+    width: 0px;
+    height: 2px;
+    display: block;
+    background: black;
+    transition: all 250ms ease-in-out;
+  }
+li:hover::after{
+  
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    width: 20%;
+    margin-top: 5px;
+    
+}
+  
+  }
 
 
 
