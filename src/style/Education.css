@@ -1,0 +1,25 @@
+#education_section{
+    height: 140vh;
+    background-color: rgb(230,236,250);
+}
+
+#education_section_heading{
+    color: navy;
+    text-shadow: 2px 2px lightcoral;
+}
+
+.college_card_body{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 25px;
+    z-index: 0;
+}
+
+.college_card_body:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 30px 0px 80px, rgba(0, 0, 0, 0.22) 0px 35px 22px;
+    width: 78%;
+}
+
+.college_card_title{
+    color:navy;
+}
+
+

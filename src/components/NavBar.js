@@ -10,10 +10,11 @@ export default class NavBar extends Component {
 
                         <a className='desktop_nav_li' href='#home_section'><li>Home</li></a>
                         <a className='desktop_nav_li' href='#about_section'><li>About me</li></a>
-                        <a className='desktop_nav_li' href='/'><li>Skills</li></a>
-                        <a className='desktop_nav_li' href='/'><li>Education</li></a>
-                        <a className='desktop_nav_li' href='/'><li>Projects</li></a>
+                        <a className='desktop_nav_li' href='#skills_section'><li>Skills</li></a>
+                        <a className='desktop_nav_li' href='#education_section'><li>Education</li></a>
+                        <a className='desktop_nav_li' href='#project_section'><li>Projects</li></a>
                         <a className='desktop_nav_li' href='/'><li>Contact me</li></a>
+                        <a className='desktop_nav_li' href='/'><li>Resume</li></a>
                     </ul>
                 </nav>
 
@@ -30,16 +31,16 @@ export default class NavBar extends Component {
                                         <a className="nav-link active" aria-current="page" href="#home_section">Home</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">About me</a>
+                                        <a className="nav-link active" aria-current="page" href="#about_section">About me</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Skills</a>
+                                        <a className="nav-link active" aria-current="page" href="#skills_section">Skills</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Education</a>
+                                        <a className="nav-link active" aria-current="page" href="#education_section">Education</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Project</a>
+                                        <a className="nav-link active" aria-current="page" href="#project_section">Project</a>
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link active" aria-current="page" href="#">About me</a>

@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#contact_section{
+    height: 90vh;
+ 
+}
+
+#contact_section_heading{
+    text-shadow: 2px 2px lightcoral;
+}
+
+#contact_btn{
+    background-color: lightcoral;
+    width: 10%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    border-radius: 8px;
+    color: white;
+}
+
+#contact_btn:hover{
+    background-color: transparent;
+    box-shadow: lightcoral 0px 10px 30px;
+    border: 2px solid lightcoral;
+    color: black;
+    
+}

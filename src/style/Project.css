@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#project_section {
+    background-image: linear-gradient(#06283D, #293462);
+
+    height: 80vh;
+}
+
+#project_section_heading{
+    text-shadow: 2px 2px lightcoral;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+}
+
+.project_card {
+   
+    z-index: 0;
+}
+
+.project_card_title{
+    color: navy;
+}
+
+
+
+

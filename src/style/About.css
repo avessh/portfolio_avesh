@@ -1,5 +1,98 @@
-#about_section{
-    height: 100vh;
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+.detail{
+    color: black;
+    font-weight: bold;
+    animation: trans 0.5s ease-in-out;
+    /* position: relative; */
+}
+
+.color{
+    color: lightcoral;
+    font-weight: bold;
+    animation: trans 0.5s ease-in-out;
+    /* position: relative; */
+}
+
+#about_section{
+    height: 100vh; 
+}
+
+#about_section_head{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#me{
+    color: lightcoral;
+}
+
+#profile_img{
+    width: 35%;
+    float: left;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#profile_img:hover{
+    filter: grayscale(0%);   
+}
+
+.my_info{
+    margin: 0 0 0 10%;
+    color: black;
+    float: left;
+    width: 55ch;
+}
+
+#content_h1{
+    font-size: 25px;
+    font-weight: bold;
+    animation: trans 0.5s ease-in-out;
+    /* position: relative; */
+  
+}
+
+
+
+@keyframes trans {
+    from{
+       position: relative;
+       bottom: 100px;
+       opacity: 0;
+    }
+    to{
+        position: relative;
+        bottom: 0px;
+        opacity: 1;
+    }
+
+    
+}
+
+
+#content_h1_span{
+font-size: 15px;
+font-weight: bold;
+color: lightcoral;
+
+}
+
+#my_info_para{
+    padding: 2% 0 0 0;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    animation: trans 0.4s ease-out;
+   
+    /* position: relative; */
+}

@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card_color{
+    background-color: rgba(20,22,38,0.7);
+    /* padding: 4%; */
+}
+
+#skills_section{
+    height: 100vh;
+    /* background: #2C3639; */
+    background-image: url('../img/Dark-Color-Inside-Gradation-Blur-ipad-air.jpg');
+    background-size: cover;
+    /* padding-left: 10%; */
+    
+   
+}
+
+#skills_head{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    padding: 2%;
+    font-weight: bold;
+}
+
+#skills_icons{
+    background-color: rgba(20,22,38,0.7);
+    box-shadow: rgba(100, 100, 100, 0.9) 0px 10px 60px;
+    border-radius: 10px;
+    width: 80%;
+    height: 65vh;
+    /* margin: 0 0 0 5%; */
+    /* float: left; */
+}
+
+
+
+.row{
+    margin-top: -13%;
+    margin-left: -12%;
+    
+    
+}
+
+.card_skills{
+   filter:grayscale(1);
+   z-index: -0;
+  
+}
+
+.card_skills:hover{
+    filter:grayscale(0%);
+    
+}
