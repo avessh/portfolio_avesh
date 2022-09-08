@@ -7,6 +7,7 @@ import '../src/style/Skills.css'
 import '../src/style/Education.css'
 import '../src/style/Project.css'
 import '../src/style/Contact.css'
+import '../src/style/Footer.css'
 
 import React, { Component } from 'react';
 
@@ -17,6 +18,7 @@ import Skills from './components/Skills';
 import Education from './components/Education';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 export default class App extends Component {
@@ -32,6 +34,7 @@ export default class App extends Component {
         <Education/>
         <Project/>
         <Contact/>
+        <Footer/>
       </div>
 
       </>

@@ -96,3 +96,32 @@ color: lightcoral;
    
     /* position: relative; */
 }
+
+
+@media screen and (max-width: 900px) {
+
+    #profile_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        float: none;
+        margin: 0%;
+    }
+
+    .img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+        padding-top: 0%;
+    }
+
+    .my_info{
+        margin: 0%;
+        float: none;
+        width: 100%;
+    }
+        
+
+}

@@ -22,4 +22,10 @@
     color:navy;
 }
 
+@media screen and (max-width: 500px) {
+    #education_section{
+        height: 110vh;
+    }
+
+}
 

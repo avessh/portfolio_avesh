@@ -28,6 +28,29 @@
     color: navy;
 }
 
+@media screen and (max-width: 500px) {
+
+    #project_section {
+       
+        height: 200vh;
+    }
+
+    #projects{
+        display: flex;
+        flex-direction: column;
+        width: 230vh;
+        margin-left: 5%;
+    }
+
+    .project_card {
+        
+        height: 55vh;
+        width: 100%;
+    }
+    
+  
+}
+
 
 
 

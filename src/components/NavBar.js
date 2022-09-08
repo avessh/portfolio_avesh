@@ -13,7 +13,7 @@ export default class NavBar extends Component {
                         <a className='desktop_nav_li' href='#skills_section'><li>Skills</li></a>
                         <a className='desktop_nav_li' href='#education_section'><li>Education</li></a>
                         <a className='desktop_nav_li' href='#project_section'><li>Projects</li></a>
-                        <a className='desktop_nav_li' href='/'><li>Contact me</li></a>
+                        <a className='desktop_nav_li' href='#contact_section'><li>Contact me</li></a>
                         <a className='desktop_nav_li' href='/'><li>Resume</li></a>
                     </ul>
                 </nav>
@@ -43,7 +43,7 @@ export default class NavBar extends Component {
                                         <a className="nav-link active" aria-current="page" href="#project_section">Project</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">About me</a>
+                                        <a className="nav-link active" aria-current="page" href="#contact_section">About me</a>
                                     </li>
 
                                    

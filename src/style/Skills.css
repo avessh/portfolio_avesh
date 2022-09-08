@@ -25,6 +25,7 @@
     font-size: 35px;
     padding: 2%;
     font-weight: bold;
+    text-shadow: 2px 2px lightcoral;
 }
 
 #skills_icons{
@@ -55,4 +56,26 @@
 .card_skills:hover{
     filter:grayscale(0%);
     
+}
+
+@media screen and (max-width: 500px) {
+
+    #skills_section{
+        height: 210vh;
+    }
+    #skills_icons{
+        
+        width: 80%;
+        height: 190vh;
+    }
+    .row{
+        margin-top: -10%;
+        margin-left: 5%;
+    }
+
+    .card_skills{
+        filter:none;
+       
+     }
+      
 }

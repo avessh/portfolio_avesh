@@ -97,7 +97,7 @@ p {
     background-color: lightcoral;
     opacity: 0.7;
     color: black;
-    width: 25%;
+    width: 22%;
     display: block;
     text-align: center;
     border-radius: 5px;
@@ -113,4 +113,50 @@ color: grey;
 
 #insta:hover{
     color: #bc2a8d;
+}
+
+@media screen and (max-width: 900px) {
+    #home_section{
+        background-image: none;
+        background-color: navy;
+        color: white;
+    }
+
+    .container {
+        padding:12% 0 0 5%;
+       display: block;
+       text-align: center;
+    }
+    #name {
+        font-size: 50px;
+    }
+    #text {
+        font-size: 25px;
+        
+    }
+
+    .typing {
+        width: 22ch;
+        
+    }
+    .brief-info{
+        width: 100%;
+    }
+
+    .social{
+       
+        width: 95%;
+       
+    }
+
+    #home_section {
+        padding-top: 10%;
+       
+        height: 70vh;
+        
+    
+    }
+
+
+
 }

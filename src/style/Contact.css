@@ -5,7 +5,7 @@
 }
 
 #contact_section{
-    height: 90vh;
+    height: 80vh;
  
 }
 
@@ -20,9 +20,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 12%;
+    margin-top: 0%;
     border-radius: 8px;
     color: white;
+    transition: all 0.5s ease-in-out;
 }
 
 #contact_btn:hover{
@@ -31,4 +32,30 @@
     border: 2px solid lightcoral;
     color: black;
     
+}
+
+.contact_section_info_heading{
+   
+    width: 50%;
+    display: block;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+
+    #contact_section{
+        height: 60vh;
+    }
+
+    #contact_btn{
+      
+        width: 25%;
+        height: 8vh;
+    }
+
+    .contact_section_info_heading{
+   
+        width: 80%;
+    }
+
 }

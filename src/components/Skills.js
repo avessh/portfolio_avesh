@@ -14,11 +14,13 @@ import wordpress_img from '../img/wordpress.png'
 import material_img from '../img/material.png'
 
 export class Skills extends Component {
+   
     render() {
+        let skills_heading = '</Skills>';
         return (
             <>
                 <section id='skills_section'>
-                 <h1 id='skills_head' className='text-center text-light'><span className='text-danger'>S</span><span className='text-primary'>K</span><span className='text-warning'>I</span><span className='text-success'>L</span><span className='text-success'>L</span><span className='text-info'>S</span></h1>
+                 <h1 id='skills_head' className='text-center text-light'>{skills_heading}</h1>
                     <div id='skills_icons' className='container mt-5'>
                         <div className='row '>
                             <div className="  border  border-danger shadow-lg p-1 mb-0 rounded col-4 card card_skills card_color mx-3  " style={{ width: "7rem", height: "9rem" }}>
