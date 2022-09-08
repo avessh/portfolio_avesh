@@ -115,7 +115,7 @@ color: grey;
     color: #bc2a8d;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
     #home_section{
         background-image: none;
         background-color: navy;
