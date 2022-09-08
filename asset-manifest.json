@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio_avesh/static/css/main.31025959.css",
+    "main.js": "/portfolio_avesh/static/js/main.b989daa3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio_avesh/static/js/787.1ed0c42c.chunk.js",
+    "static/media/portfolio.png": "/portfolio_avesh/static/media/portfolio.79ce73faecc96ac7b25a.png",
+    "static/media/dps.png": "/portfolio_avesh/static/media/dps.7f085a5d93836752810b.png",
+    "static/media/project_one.png": "/portfolio_avesh/static/media/project_one.63d7d852c4227808dfca.png",
+    "static/media/social_media_project.png": "/portfolio_avesh/static/media/social_media_project.404420bd1342200c1f97.png",
+    "static/media/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg": "/portfolio_avesh/static/media/kelly-sikkema-tk9RQCq5eQo-unsplash.4560992e7748bd112496.jpg",
+    "static/media/college.jpg": "/portfolio_avesh/static/media/college.df4c209d45651fad4467.jpg",
+    "static/media/react.png": "/portfolio_avesh/static/media/react.2f2532db663fd5ec5f95.png",
+    "static/media/material.png": "/portfolio_avesh/static/media/material.5955eca0663eaeb9b8d6.png",
+    "static/media/profile.jpeg": "/portfolio_avesh/static/media/profile.7e84c71ab23916362e19.jpeg",
+    "static/media/mysql.png": "/portfolio_avesh/static/media/mysql.60fe462b4dec8bbc0292.png",
+    "static/media/wordpress.png": "/portfolio_avesh/static/media/wordpress.677ef4544cab80a0c451.png",
+    "static/media/html5.png": "/portfolio_avesh/static/media/html5.fb627e76c05a9a6c7444.png",
+    "static/media/css.png": "/portfolio_avesh/static/media/css.ea63097553654f07d95c.png",
+    "static/media/Dark-Color-Inside-Gradation-Blur-ipad-air.jpg": "/portfolio_avesh/static/media/Dark-Color-Inside-Gradation-Blur-ipad-air.7494a4d6362d87278135.jpg",
+    "static/media/node.png": "/portfolio_avesh/static/media/node.7b0f4700ed6ce39afdff.png",
+    "static/media/javascript.png": "/portfolio_avesh/static/media/javascript.166865dacb77d214f485.png",
+    "static/media/php.png": "/portfolio_avesh/static/media/php.2669e4414a7770d1e027.png",
+    "static/media/cpp.png": "/portfolio_avesh/static/media/cpp.1240ce157b70fb399c6c.png",
+    "static/media/git.png": "/portfolio_avesh/static/media/git.69ffd9cd5a846c976177.png",
+    "static/media/express.png": "/portfolio_avesh/static/media/express.07d152a8a036951b8d14.png",
+    "index.html": "/portfolio_avesh/index.html",
+    "main.31025959.css.map": "/portfolio_avesh/static/css/main.31025959.css.map",
+    "main.b989daa3.js.map": "/portfolio_avesh/static/js/main.b989daa3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio_avesh/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31025959.css",
+    "static/js/main.b989daa3.js"
+  ]
+}
