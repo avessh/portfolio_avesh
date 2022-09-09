@@ -43,26 +43,16 @@
 @media screen and (max-width: 500px) {
 
     #footer_section{
-        height: 40vh;
+        height: 5vh;
         font-size: 10px;
+        display: none;
       
     }
-    .footer_links{
-        display: block;
-        text-align: left;
-    }
-    #footer_quick_links{
-  
-        width: 30%;
-        height: 40vh;
-        margin: 0 0 0 5%;
-        display: block;
-        text-align: left;
-    }
-    #contact_link{
-        width: 35%;
-        display: block;
-        text-align: left;
+    
+   
+
+    #me_footer{
+        height: 1vh;
     }
 
 }

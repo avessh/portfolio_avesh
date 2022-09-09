@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     z-index: 1;
+    overflow-x: hidden;
 }
 .navbar_desktop{
  
@@ -63,6 +64,7 @@
     top: 0;
     width: 100%;
     min-height: 20vh;
+    overflow-x: hidden;
   }
 
   li{

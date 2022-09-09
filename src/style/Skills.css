@@ -61,12 +61,13 @@
 @media screen and (max-width: 500px) {
 
     #skills_section{
-        height: 210vh;
+        padding-top: 5%;
+        height: 260vh;
     }
     #skills_icons{
         
         width: 80%;
-        height: 190vh;
+        height: 235vh;
     }
     .row{
         margin-top: -10%;
@@ -75,6 +76,8 @@
 
     .card_skills{
         filter:none;
+        height: 25vh !important;
+        width: 35% !important;
        
      }
       

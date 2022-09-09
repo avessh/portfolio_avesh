@@ -120,10 +120,11 @@ color: grey;
         background-image: none;
         background-color: navy;
         color: white;
+        height: 60vh !important;
     }
 
     .container {
-        padding:12% 0 0 3%;
+        padding:22% 0 0 1%;
        display: block;
        text-align: center;
     }
@@ -131,21 +132,28 @@ color: grey;
         font-size: 50px;
     }
     #text {
-        font-size: 25px;
+        font-size: 18px;
+        width: 100%;
         
     }
 
     .typing {
-        width: 22ch;
+        width: 19ch;
         
     }
     .brief-info{
         width: 100%;
+        font-size: 16px
     }
 
     .social{
        
-        width: 95%;
+        width: 50%;
+        padding: 0%;
+        font-size: 26px;
+        margin: 5% 0 0 25%;
+        background-color: transparent;
+        color: white;
        
     }
 
