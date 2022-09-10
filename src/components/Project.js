@@ -39,7 +39,7 @@ export default class Project extends Component {
                                 <h5 className=" project_card_title card-title fw-bold">PORTFOLIO WEBSITE</h5>
                                 <p className=" fs-6 card-text fw-bold text-secondary">Portfolio website | React.js</p>
                                 <a><button className='btn btn-dark mt-5 mr-3'>View</button></a>
-                                <a><button className='btn btn-secondary mt-5'>code</button></a>
+                                <a href='https://github.com/avessh/portfolio_avesh.git' rel="noreferrer"><button className='btn btn-secondary mt-5'>code</button></a>
 
                             </div>
                         </div>
