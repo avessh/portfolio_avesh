@@ -8,7 +8,7 @@
 }
 
 .container {
-    padding: 12% 0% 0% 13%;
+    padding: 12% 0% 0% 18%;
     color: whitesmoke;
   
 }
@@ -46,6 +46,7 @@ p {
     border-radius: 5px;
     font-size: 2em;
     margin-top: 1%;
+    margin-left: 0vh;
     background-color: lightyellow;
     padding: 1% !important;
     color: white;

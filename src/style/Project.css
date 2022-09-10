@@ -7,7 +7,7 @@
 #project_section {
     background-image: linear-gradient(#06283D, #293462);
 
-    height: 80vh;
+    min-height: 80vh;
 }
 
 #project_section_heading{
@@ -39,7 +39,7 @@
         display: flex;
         flex-direction: column;
         width: 230vh;
-        margin-left: 5%;
+        margin-left: 4%;
     }
 
     .project_card {

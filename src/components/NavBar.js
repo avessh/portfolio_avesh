@@ -43,7 +43,7 @@ export default class NavBar extends Component {
                                         <a className="nav-link active" aria-current="page" href="#project_section">Project</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#contact_section">About me</a>
+                                        <a className="nav-link active" aria-current="page" href="#contact_section">Contact me</a>
                                     </li>
 
                                    
