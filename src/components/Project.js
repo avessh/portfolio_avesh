@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import project_one from '../img/project_one.png'
 import social_media_project from '../img/social_media_project.png'
 import portfolio_project from '../img/portfolio.png'
+import flipkart_project from '../img/flipkart.png'
 
 export default class Project extends Component {
     render() {
@@ -43,6 +44,19 @@ export default class Project extends Component {
 
                             </div>
                         </div>
+
+                        <div className=" project_card  float-left col-3 card mb-3 w-25  mx-2 ">
+                            <img src={flipkart_project} className=" card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className=" project_card_title card-title fw-bold">Flipkart Clone</h5>
+                                <p className=" fs-6 card-text fw-bold text-secondary">Flipkart Clone using MERN-Stack</p>
+                                <a href='https://flipkartclonebyavessh.herokuapp.com/' target='_blank' rel="noreferrer" ><button className='btn btn-dark mt-5 mr-3'>View</button></a>
+                                <a href='https://github.com/avessh/flipkartclone' target='_blank' rel="noreferrer"><button className='btn btn-secondary mt-5'>code</button></a>
+
+                            </div>
+                        </div>
+
+                        
                        
                         </div>
 
