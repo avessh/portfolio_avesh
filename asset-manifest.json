@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_avesh/static/css/main.048acc7c.css",
+    "main.css": "/portfolio_avesh/static/css/main.80c8e11e.css",
     "main.js": "/portfolio_avesh/static/js/main.31bae139.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio_avesh/static/js/787.1ed0c42c.chunk.js",
     "static/media/portfolio.png": "/portfolio_avesh/static/media/portfolio.79ce73faecc96ac7b25a.png",
@@ -25,12 +25,12 @@
     "static/media/git.png": "/portfolio_avesh/static/media/git.69ffd9cd5a846c976177.png",
     "static/media/express.png": "/portfolio_avesh/static/media/express.07d152a8a036951b8d14.png",
     "index.html": "/portfolio_avesh/index.html",
-    "main.048acc7c.css.map": "/portfolio_avesh/static/css/main.048acc7c.css.map",
+    "main.80c8e11e.css.map": "/portfolio_avesh/static/css/main.80c8e11e.css.map",
     "main.31bae139.js.map": "/portfolio_avesh/static/js/main.31bae139.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio_avesh/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.048acc7c.css",
+    "static/css/main.80c8e11e.css",
     "static/js/main.31bae139.js"
   ]
 }
