@@ -25,7 +25,8 @@
 
 @media screen and (max-width: 500px) {
     #education_section{
-        height: 90vh;
+       min-height: 60vh;
+       max-height: 140vh;
     }
 
 }

@@ -37,7 +37,8 @@
 
     #project_section {
        
-        height: 220vh;
+        min-height: 250vh;
+        max-height: 400vh;
         width: 100%;
     }
 
