@@ -4,6 +4,7 @@ import project_one from '../img/project_one.png'
 import social_media_project from '../img/social_media_project.png'
 import portfolio_project from '../img/portfolio.png'
 import flipkart_project from '../img/flipkart.png'
+import color_picker from '../img/color-picker.png'
 
 export default class Project extends Component {
     render() {
@@ -56,8 +57,26 @@ export default class Project extends Component {
                             </div>
                         </div>
 
+                      
+
                         
                        
+                        </div>
+                        <div  id='projects' className="">
+
+
+                        <div  className=" project_card  float-left col-3 card mb-3 w-25  mx-2 ">
+                            <img src={color_picker} className=" card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5 className=" project_card_title card-title fw-bold">Chrome Extension || Color Picker</h5>
+                                <p className=" fs-6 card-text fw-bold text-secondary">Color Picker using HTML, CSS, JavaScript, Manifest.json</p>
+                                <a href='https://github.com/avessh/chrome_extention_color_picker' target='_blank' rel="noreferrer" ><button className='btn btn-dark mt-5 mr-3'>View</button></a>
+                                <a href='https://github.com/avessh/chrome_extention_color_picker' target='_blank' rel="noreferrer"><button className='btn btn-secondary mt-5'>code</button></a>
+
+                            </div>
+
+                            
+                        </div>
                         </div>
 
 

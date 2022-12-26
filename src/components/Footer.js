@@ -21,8 +21,8 @@ export default class Footer extends Component {
 
         <div id="footer_quick_links"  className='col-6 w-50' >
             <h1 id='footer_heading' className='  fw-bold fs-2 pb-2 pt-4 text-white'>Contact me</h1>
-            <ul className='fs-6  text-light'>
-            <a href="mailto:aveshsinghwork@gmail.com" target='_blank' rel="noreferrer"> <li className=' footer_links pb-2'><i className="fa-regular fa-envelope"></i> : aveshsinghwork@gmail.com</li></a>
+            <ul  className='fs-6  text-light'>
+            <a   href="mailto:aveshsinghwork@gmail.com" target='_blank' rel="noreferrer"> <li  className=' footer_links pb-2'><i   className="fa-regular fa-envelope" style={{marginTop:'-15px;'}}></i> : aveshsinghwork@gmail.com</li></a>
                
             </ul>
             

@@ -14,7 +14,7 @@ export default class NavBar extends Component {
                         <a className='desktop_nav_li' href='#education_section'><li>Education</li></a>
                         <a className='desktop_nav_li' href='#project_section'><li>Projects</li></a>
                         <a className='desktop_nav_li' href='#contact_section'><li>Contact me</li></a>
-                        <a className='desktop_nav_li' href='/'><li>Resume</li></a>
+                        <a className='desktop_nav_li' href='https://drive.google.com/file/d/1XdgPiEN6xgw91rz1mXZUBXKu7H9QjWMa/view?usp=share_link' target='_blank' rel="noreferrer"><li>Resume</li></a>
                     </ul>
                 </nav>
 

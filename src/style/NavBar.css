@@ -10,6 +10,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    overflow-y: hidden;
 }
 
 #desktop_nav_ul{
@@ -25,6 +26,7 @@
     padding: 1rem;
     justify-content: center;
    position: relative;
+   overflow: hidden;
 }
  
 
