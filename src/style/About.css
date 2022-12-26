@@ -114,7 +114,8 @@ color: lightcoral;
 @media screen and (max-width: 500px) {
 
     #about_section{
-        height: 105vh;
+        min-height: 115vh;
+        max-height: 200vh;
     }
 
     #profile_img{
@@ -142,6 +143,16 @@ color: lightcoral;
         margin: 0%;
         float: none;
         width: 100%;
+    }
+
+    #my_info_para{
+        text-align: justify;
+        padding: 20px;
+    }
+
+    #my-para-detail{
+        text-align: left;
+        padding-left: 20px;
     }
         
 
