@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio_avesh/static/css/main.a32ae1b8.css",
-    "main.js": "/portfolio_avesh/static/js/main.a1dbd4ae.js",
+    "main.css": "/portfolio_avesh/static/css/main.fa99fb22.css",
+    "main.js": "/portfolio_avesh/static/js/main.a2f7adc9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio_avesh/static/js/787.1ed0c42c.chunk.js",
+    "static/media/background.jpg": "/portfolio_avesh/static/media/background.b0aa4ebdb56c63e16373.jpg",
     "static/media/portfolio.png": "/portfolio_avesh/static/media/portfolio.79ce73faecc96ac7b25a.png",
     "static/media/flipkart.png": "/portfolio_avesh/static/media/flipkart.cf7bf8c1f705d2ce236d.png",
     "static/media/dps.png": "/portfolio_avesh/static/media/dps.7f085a5d93836752810b.png",
     "static/media/project_one.png": "/portfolio_avesh/static/media/project_one.63d7d852c4227808dfca.png",
     "static/media/social_media_project.png": "/portfolio_avesh/static/media/social_media_project.404420bd1342200c1f97.png",
-    "static/media/kelly-sikkema-tk9RQCq5eQo-unsplash.jpg": "/portfolio_avesh/static/media/kelly-sikkema-tk9RQCq5eQo-unsplash.4560992e7748bd112496.jpg",
     "static/media/college.jpg": "/portfolio_avesh/static/media/college.df4c209d45651fad4467.jpg",
     "static/media/react.png": "/portfolio_avesh/static/media/react.2f2532db663fd5ec5f95.png",
     "static/media/material.png": "/portfolio_avesh/static/media/material.5955eca0663eaeb9b8d6.png",
@@ -26,12 +26,12 @@
     "static/media/git.png": "/portfolio_avesh/static/media/git.69ffd9cd5a846c976177.png",
     "static/media/express.png": "/portfolio_avesh/static/media/express.07d152a8a036951b8d14.png",
     "index.html": "/portfolio_avesh/index.html",
-    "main.a32ae1b8.css.map": "/portfolio_avesh/static/css/main.a32ae1b8.css.map",
-    "main.a1dbd4ae.js.map": "/portfolio_avesh/static/js/main.a1dbd4ae.js.map",
+    "main.fa99fb22.css.map": "/portfolio_avesh/static/css/main.fa99fb22.css.map",
+    "main.a2f7adc9.js.map": "/portfolio_avesh/static/js/main.a2f7adc9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio_avesh/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a32ae1b8.css",
-    "static/js/main.a1dbd4ae.js"
+    "static/css/main.fa99fb22.css",
+    "static/js/main.a2f7adc9.js"
   ]
 }
