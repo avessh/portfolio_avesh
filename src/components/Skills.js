@@ -14,98 +14,98 @@ import wordpress_img from '../img/wordpress.png'
 import material_img from '../img/material.png'
 
 export class Skills extends Component {
-   
+
+
     render() {
         let skills_heading = '</Skills>';
+        const skill = [
+            {
+                id: 1,
+                img: img,
+                name: "HTML",
+
+            },
+            {
+                id: 2,
+                img: css_img,
+                name: "CSS"
+            },
+            {
+                id: 3,
+                img: javascript_img,
+                name: "javaScript"
+            },
+            {
+                id: 4,
+                img: php_img,
+                name: "PHP"
+            },
+            {
+                id: 5,
+                img: mysql_img,
+                name: "MySQL"
+            },
+            {
+                id: 6,
+                img: node_img,
+                name: "Node.js"
+            },
+            {
+                id: 7,
+                img: express_img,
+                name: "Express.js"
+            },
+            {
+                id: 8,
+                img: react_img,
+                name: "React.js"
+            },
+            {
+                id: 9,
+                img: bootstrap_img,
+                name: "Bootstrap"
+            },
+            {
+                id: 10,
+                img: cpp_img,
+                name: "C++"
+            },
+            {
+                id: 11,
+                img: git_img,
+                name: "GitHub"
+            },
+            {
+                id: 12,
+                img: wordpress_img,
+                name: "WordPress"
+            },
+            {
+                id: 13,
+                img: material_img,
+                name: "MUI"
+            }
+        ]
         return (
             <>
                 <section id='skills_section'>
-                 <h1 id='skills_head' className='text-center text-light'>{skills_heading}</h1>
-                    <div id='skills_icons' className='container mt-5'>
-                        <div className='row '>
-                            <div className="  border  border-danger shadow-lg p-1 mb-0 rounded col-4 card card_skills card_color mx-3  " style={{ width: "7rem", height: "9rem" }}>
-                                <img className='shadow-lg' src={img} />
-                                <h1 className='  p-2 text-center text-danger'>HTML</h1>
+                    <h1 id='skills_head'>{skills_heading}</h1>
+                    <div id='skills_icons'>
+                        <div className='row'>
+                            {skill.map(user => (
+                                <div key={user.id} className= "  col-sm-4  p-1 rounded  card card_skills card_color   "style={{ width: "7rem", height: "9rem" }}>
+                                <img className='shadow-lg p-3' src={user.img} />
+                                <h1 id='skill-text' className='  p-2 text-center '>{user.name}</h1>
                             </div>
-                            <div className=" border border-info shadow-lg p-1 mb-5 rounded col-4 card card_skills card_color mx-3  " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={css_img} />
-                                <h1 className=' p-2 text-center text-info'>CSS</h1>
-                            </div>
-                            <div className=" border border-warning shadow-lg p-1 mb-5 rounded col-4 card card_skills card_color mx-3  " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={javascript_img} />
-                                <h1 className=' p-2 text-center text-warning'>javaScript</h1>
-                            </div>
-                            <div className=" border border-primary shadow-lg p-1 mb-5 rounded col-4 card card_skills card_color mx-3 " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={php_img} />
-                                <h1 className=' p-2 text-center text-primary'>PHP</h1>
-                            </div>
-                            <div className=" border border-warning shadow-lg p-1 mb-5 rounded col-4 card card_skills card_color mx-3 " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={mysql_img} />
-                                <h1 className=' p-2 text-center text-warning'>MySQL</h1>
-                            </div>
-                            <div className=" border border-success shadow-lg p-1 mb-5 rounded col-4 card card_skills card_color mx-3 " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={node_img} />
-                                <h1 className=' p-2 text-center text-success'>Node.js</h1>
-                            </div>
-                            <div className=" border border-success shadow-lg p-1 mb-5 rounded col-4 card card_skills card_color mx-3 " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={express_img} />
-                                <h1 className=' p-2 text-center text-success'>Express.js</h1>
-                            </div>
-                            <div className="  border border-primary shadow-lg p-1 mb-5 rounded col-4 card card_skills card_color mx-3 " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={react_img} />
-                                <h1 className=' p-2 text-center text-primary'>React.js</h1>
-                            </div>
-                            <div className=" border border-info shadow-lg   p-1 mb-5 rounded col-4 card card_skills card_color mx-3 " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={bootstrap_img} />
-                                <h1 className=' p-2 text-center text-info'>Bootstrap</h1>
-                            </div>
-                            <div className=" border border-primary shadow-lg   p-1 mb-5 rounded col-4 card card_skills card_color mx-3  " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={material_img} className="mt-3 w-75 text-center ml-3" />
-                                <h1 className=' mt-4 p-2 text-center text-primary'>Material UI</h1>
-                            </div>
-                            <div className=" border border-primary shadow-lg   p-1 mb-5 rounded col-4 card card_skills card_color mx-3 " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={cpp_img} />
-                                <h1 className=' p-2 text-center text-primary'>C++</h1>
-                            </div>
-                            <div className=" border border-secondary shadow-lg   p-1 mb-5 rounded col-4 card card_skills card_color mx-3  " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={git_img} />
-                                <h1 className=' p-2 text-center text-secondary'>GitHub</h1>
-                            </div>
-                            <div className=" border border-secondary shadow-lg   p-1 mb-5 rounded col-4 card card_skills card_color mx-3  " style={{ width: "7rem", height: "9rem" }}>
-                                <img src={wordpress_img}  />
-                                <h1 className=' p-2 text-center text-secondary'>Wordpress</h1>
-                            </div>
-                          
+                            ))}
+
+
+
+
                         </div>
                     </div>
 
 
-                    {/* <div id='progress_bar'>
-                        <h1 className='my-3 text-danger font-weight-bold text-lg' >HTML</h1>
-                        <div className="progress my-3">
-                            <div style={{ width: "80%" }} className="progress-bar bg-danger" role="progressbar" aria-label="Danger example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h1 className='my-3 text-primary font-weight-bold text-lg' >CSS</h1>
-                        <div className="progress my-3">
-                            <div style={{ width: "75%" }} className="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h1 className='my-3 text-warning font-weight-bold text-lg' >javaScript</h1>
-                        <div className="progress my-3">
-                            <div style={{ width: "55%" }} className="progress-bar bg-warning" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h1 className='my-3 text-primary font-weight-bold text-lg' >PHP</h1>
-                        <div className="progress my-3">
-                            <div style={{ width: "60%" }} className="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h1 className='my-3 text-white font-weight-bold text-lg' >HTML</h1>
-                        <div className="progress my-3">
-                            <div style={{ width: "" }} className="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h1 className='my-3 text-white font-weight-bold text-lg' >HTML</h1>
-                        <div className="progress my-3">
-                            <div style={{ width: "" }} className="progress-bar" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div> */}
                 </section>
             </>
         )
@@ -113,3 +113,6 @@ export class Skills extends Component {
 }
 
 export default Skills
+
+
+

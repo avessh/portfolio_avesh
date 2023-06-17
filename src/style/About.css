@@ -114,8 +114,9 @@ color: lightcoral;
 @media screen and (max-width: 500px) {
 
     #about_section{
-        min-height: 105vh;
-        max-height: 200vh;
+        min-height: 50vh !important;
+        max-height: 200vh !important;
+        margin-bottom: 20px;
     }
 
     #profile_img{
@@ -126,6 +127,8 @@ color: lightcoral;
         float: none;
         margin: 0%;
         z-index: 0;
+
+    box-shadow:none;
     }
 
     .img{

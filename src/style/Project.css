@@ -9,6 +9,8 @@
     overflow: hidden;
     min-height: 100vh;
     max-height: 150vh;
+    display: grid;
+    place-items: center
 }
 
 #project_section_heading{
@@ -20,13 +22,17 @@
     justify-content: center;
     /* overflow-x: scroll; */
     width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+    overflow: scroll;
+    padding-left: 15% !important;
+    scrollbar-width: 0px !important;
+    /* padding-left: 50px;
+    padding-right: 50px; */
 }
 
 .project_card {
    
     z-index: 0;
+    margin: 10px;
 }
 
 .project_card_title{
@@ -39,26 +45,44 @@
        
         min-height: 250vh;
         max-height: 400vh;
+        display: flex;
+        flex-direction: column;
         width: 100%;
+        z-index: 0;
     }
-
+    #project_section_heading{
+        text-shadow: 2px 2px lightcoral;
+        z-index: 0;
+    }
+    
     #projects{
         display: flex;
         flex-direction: column;
-        width: 210vh;
-        margin-left: -8.5%;
+        align-items: center;
+    
+        padding:20px 20px 20px 20px !important;
+        z-index: 0;
         
     }
-
+    
     .project_card {
         
-        height: 48vh;
-        width: 42vh !important;
+        height: auto;
+        width: auto !important;
+        z-index: -1;
+        margin: 0px;
      
+    }
+
+    #scroll{
+        display: none;
     }
     
   
 }
+
+
+
 
 
 
