@@ -18,7 +18,7 @@ export default class About extends Component {
                 <h1 id='content_h1'> I&apos;m Avesh Singh <br/>  </h1>
                 <h1 id='content_h1_span'>Web Developer</h1>
               
-               <p id='my_info_para'>Hello, I am Electronics and Communication Engineering Undergraduate from Madan Mohan Malaviya University of Technology, Gorakhpur. I have geniune ineterst in web development that how websites build how they work. I build websites using PHP, MySQL , MERN stack. I love to build website templates.</p>
+               <p id='my_info_para'>Full-Stack Developer | Pursuing B.Tech at Madan Mohan Malaviya University of Technology | Skilled in HTML, CSS, JavaScript, MERN Stack and LAMP Stack. Driven to create seamless and visually appealing web applications. Experienced in responsive design and eager to collaborate with cross-functional teams. Passionate about delivering exceptional user experiences. Seeking opportunities to apply and enhance my skills in the industry.</p>
                
                <div id='my-para-detail'>
                <h1 className='color my-3'>Email: <span className='detail'> aveshsinghwork@gmail.com</span> </h1>
