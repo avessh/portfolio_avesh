@@ -8,8 +8,9 @@
 #about_section{
     overflow: hidden;
     min-height: 70vh;
-    max-height: 200vh;
-    margin-bottom: 80px  !important;
+    max-height: 200vh !important;
+    padding-bottom: 80px  !important;
+    margin-bottom: 50px;
 }
 
 .detail{
@@ -117,9 +118,11 @@ color: lightcoral;
 @media screen and (max-width: 500px) {
 
     #about_section{
-        min-height: 70vh ;
-        max-height: 200vh ;
+        min-height: auto !important;
+        max-height: auto !important ;
         /* margin-bottom: 40px; */
+        padding-bottom: 80px  !important;
+    margin-bottom: 50px;
     }
 
     #profile_img{
