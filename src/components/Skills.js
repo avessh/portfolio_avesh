@@ -92,12 +92,13 @@ export class Skills extends Component {
                     <h1 id='skills_head'>{skills_heading}</h1>
                     <div id='skills_icons'>
                         <div className='row'>
-                            {skill.map(user => (
+                            {skill.map(user => user.img === ""? <h2>load</h2>:
                                 <div key={user.id} className= "  col-sm-4  p-1 rounded  card card_skills card_color   "style={{ width: "7rem", height: "9rem" }}>
                                 <img className='shadow-lg p-3' src={user.img} />
                                 <h1 id='skill-text' className='  p-2 text-center '>{user.name}</h1>
                             </div>
-                            ))}
+                            
+                            )}
 
 
 
