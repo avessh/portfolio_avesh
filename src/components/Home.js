@@ -7,12 +7,12 @@ export default class Home extends Component {
 
       <>
         <section id='home_section' >
-          <div className='wrapper container'>
+          <div className='wrapper' id='contain'>
             <p>Hey, &nbsp; my name is</p>
             <h1 id='name'>Avesh <span className='last_name'> Singh </span></h1>
             <div className='typing'>
               <h2 id='text' > <span id='text_span'>I Find interest in <span id='web_text'> <b>Web</b>  </span>Development <span id='toggel'>|</span> </span></h2>
-            </div>
+              </div>
             <p className='brief-info'>I&apos;m pursuing my Bachelor&apos;s in Electronics and Communication Engineering from <a href='http://www.mmmut.ac.in/' target='_blank' rel="noreferrer"> Madan Mohan Malaviya University of Technology</a> , Gorakhpur</p>
 
             <div className='social'>

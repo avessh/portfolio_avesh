@@ -11,14 +11,14 @@
 
 .detail{
     color: black;
-    font-weight: bold;
+    /* font-weight: bold; */
     animation: trans 0.5s ease-in-out;
     /* position: relative; */
 }
 
 .color{
     color: lightcoral;
-    font-weight: bold;
+    /* font-weight: bold; */
     animation: trans 0.5s ease-in-out;
     /* position: relative; */
 }
@@ -69,7 +69,7 @@
 
 #content_h1{
     font-size: 25px;
-    font-weight: bold;
+    /* font-weight: bold; */
     animation: trans 0.5s ease-in-out;
     /* position: relative; */
   
@@ -103,7 +103,7 @@ color: lightcoral;
 #my_info_para{
     padding: 2% 0 0 0;
     color: black;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 16px;
     animation: trans 0.4s ease-out;
    
@@ -114,7 +114,7 @@ color: lightcoral;
 @media screen and (max-width: 500px) {
 
     #about_section{
-        min-height: 115vh;
+        min-height: 105vh;
         max-height: 200vh;
     }
 
