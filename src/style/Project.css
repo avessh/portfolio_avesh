@@ -25,7 +25,9 @@
     overflow: scroll;
     padding-left: 15% !important;
     scrollbar-width: 0px !important;
+    z-index: 0;
     /* padding-left: 50px;
+    
     padding-right: 50px; */
 }
 
