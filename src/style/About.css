@@ -118,7 +118,7 @@ color: lightcoral;
 @media screen and (max-width: 500px) {
 
     #about_section{
-        min-height: auto !important;
+        min-height: 120vh !important;
         max-height: auto !important ;
         /* margin-bottom: 40px; */
         padding-bottom: 80px  !important;
