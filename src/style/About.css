@@ -9,7 +9,7 @@
     overflow: hidden;
     min-height: 70vh;
     max-height: 200vh;
-    margin-bottom: 150px  !important;
+    margin-bottom: 70px  !important;
 }
 
 .detail{
@@ -117,7 +117,7 @@ color: lightcoral;
 @media screen and (max-width: 500px) {
 
     #about_section{
-        min-height: 115vh ;
+        min-height: 70vh ;
         max-height: 200vh ;
         /* margin-bottom: 40px; */
     }
