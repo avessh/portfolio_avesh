@@ -95,9 +95,11 @@
 
     #skills_icons {
         /* box-shadow: rgba(100, 100, 100, 0.9) 0px 10px 60px; */
-        box-shadow: none;
-        margin: 50px 0;
+        box-shadow: none; 
+        margin: 50px 0px;
         width: 100%;
+        height: auto !important;
+        overflow: hidden;
     }
 
     .row {
@@ -110,7 +112,7 @@
         /* width: 16.5vh !important; */
         z-index: -0;
         /* height: 22vh !important; */
-        margin: 10px;
+        margin: 8px;
 
     }
 
