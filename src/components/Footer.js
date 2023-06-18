@@ -5,10 +5,10 @@ export default class Footer extends Component {
     return (
     <>
     <section id='footer_section'>
-        <div className='row mx-auto'>
-        <div id="footer_quick_links"  className='col-6' >
-            <h1 id='footer_heading' className='  fw-bold fs-2 pb-2 pt-4 text-white'>Quick links</h1>
-            <ul className='fs-6  text-light'>
+        <div id='footer' >
+        <div id="footer_quick_links"  >
+            <h1 id='footer_heading' className=''>Quick links</h1>
+            <ul className=''>
                <a href='#home_section'> <li className=' footer_links pb-2'> <i className="fa-solid fa-house"></i> &nbsp; Home</li></a>
                <a href='#about_section'> <li className=' footer_links pb-2'> <i className="fa-solid fa-circle-dot"></i> &nbsp;  About</li></a>
                <a href='#skills_section'> <li className=' footer_links pb-2'> <i className="fa-solid fa-circle-dot"></i> &nbsp;  Skills</li></a>
@@ -19,9 +19,9 @@ export default class Footer extends Component {
             
         </div>
 
-        <div id="footer_quick_links"  className='col-6 w-50' >
-            <h1 id='footer_heading' className='  fw-bold fs-2 pb-2 pt-4 text-white'>Contact me</h1>
-            <ul  className='fs-6  text-light'>
+        <div id="footer_quick_link"  className='' >
+            <h1 id='footer_heading' className=''>Contact me</h1>
+            <ul  className=''>
             <a   href="mailto:aveshsinghwork@gmail.com" target='_blank' rel="noreferrer"> <li  className=' footer_links pb-2'><i   className="fa-regular fa-envelope" style={{marginTop:'-15px;'}}></i> : aveshsinghwork@gmail.com</li></a>
                
             </ul>

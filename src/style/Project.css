@@ -22,9 +22,9 @@
     justify-content: center;
     /* overflow-x: scroll; */
     width: 100%;
-    overflow: scroll;
-    padding-left: 15% !important;
-    scrollbar-width: 0px !important;
+    /* overflow: scroll; */
+    padding: 50px 50px;
+    /* scrollbar-width: 0px !important; */
     z-index: 0;
     /* padding-left: 50px;
     
