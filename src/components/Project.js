@@ -13,7 +13,7 @@ export default class Project extends Component {
             {
                 id: 1,
                 img: social_media_project,
-                name: "MMMUT SOCIAL PHP",
+                name: "SOCIAL PHP",
                 desc:"Full Stack Social Media Site using LAMP Stack. With all major feature",
                 link:"http://mmmutsocial.freecluster.eu/avesh/login.php",
                 code:"https://github.com/avessh/collegesocial.git"
@@ -30,7 +30,7 @@ export default class Project extends Component {
             {
                 id: 3,
                 img: flipkart_project,
-                name: "Flipkar Clone",
+                name: "Flipkart Clone",
                 desc:"Full Stack Social Media Site using LAMP Stack. With all major feature",
                 link:"https://github.com/avessh/flipkartclone.git",
                 code:"https://github.com/avessh/flipkartclone.git"

@@ -48,7 +48,7 @@ p {
 
 
 .typing {
-    width: 55ch;
+    width: 100vw;
     animation: typing 2s steps(53), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
