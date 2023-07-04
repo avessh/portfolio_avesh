@@ -22,8 +22,8 @@ export default class Project extends Component {
             {
                 id: 2,
                 img: portfolio_project,
-                name: "Portfolio Website | React.js",
-                desc:"Full Stack Social Media Site using LAMP Stack. With all major feature",
+                name: "Portfolio Website",
+                desc:"Static Website using React.js",
                 link:"https://avessh.github.io/portfolio_avesh/",
                 code:"https://github.com/avessh/portfolio_avesh.git"
             },
@@ -31,7 +31,7 @@ export default class Project extends Component {
                 id: 3,
                 img: flipkart_project,
                 name: "Flipkart Clone",
-                desc:"Full Stack Social Media Site using LAMP Stack. With all major feature",
+                desc:"Full Stack e-commerce website using MERN Stack",
                 link:"https://github.com/avessh/flipkartclone.git",
                 code:"https://github.com/avessh/flipkartclone.git"
             },
@@ -39,7 +39,7 @@ export default class Project extends Component {
                 id: 4,
                 img: color_picker,
                 name: "Color picker chrome extension",
-                desc:"Full Stack Social Media Site using LAMP Stack. With all major feature",
+                desc:"Pick Color hash code from the current webpage",
                 link:"https://github.com/avessh/chrome_extention_color_picker.git",
                 code:"https://github.com/avessh/chrome_extention_color_picker.git"
             }
